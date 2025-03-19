@@ -1,0 +1,31 @@
+{
+  "name": "aws-lambda-nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a boilerplate for AWS lambda in Javascript Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanoak/aws-lambda-nodejs-boilerplate.git"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "Node.js",
+    "AWS Lambda",
+    "Javascript"
+  ],
+  "author": "Hanoak",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/hanoak/aws-lambda-nodejs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hanoak/aws-lambda-nodejs-boilerplate#readme"
+}
