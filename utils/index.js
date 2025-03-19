@@ -1,3 +1,5 @@
+// App's utility functions resides here.
+
 import constants from "../constants/index.js";
 
 export const lambdaResponse = (statusCode, body, headers = {}) => {

@@ -1,3 +1,5 @@
+// Add all your app's constants here.
+
 const constants = {
   ERROR_TEXTS: {
     INTERNAL_ERROR: "Internal error, please try again.",
