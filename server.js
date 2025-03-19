@@ -1,11 +1,10 @@
 //SERVER.JS IS ONLY FOR THE LOCAL SETUP TO EMULATE LAMBDA ENVIRONMENT.
 
-import dotenv from "dotenv";
+import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import { handler } from "./index.js";
 
-dotenv.config();
 const PORT = 5000;
 const app = express();
 

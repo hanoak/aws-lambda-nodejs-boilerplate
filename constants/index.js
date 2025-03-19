@@ -1,4 +1,4 @@
-export const constants = {
+const constants = {
   ERROR_TEXTS: {
     INTERNAL_ERROR: "Internal error, please try again.",
     BAD_REQ: "Invalid data provided.",
@@ -10,7 +10,10 @@ export const constants = {
     INTERNAL_ERROR: 500,
   },
   LOGS: {
+    APP_ENV: "App environment: ",
     REQ: "Execution started with: ",
     RES: "Execution completed with: ",
   },
 };
+
+export default constants;
