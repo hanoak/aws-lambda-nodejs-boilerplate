@@ -12,6 +12,11 @@ export const handler = async ({
     console.info(constants.LOGS.APP_ENV, config.APP_ENV);
     console.info(constants.LOGS.REQ, httpMethod, query, body);
 
+    //Make use of newBody in your,I'm just printing it out here.
+    // Parsing the body if it's JSON string.
+    const newBody = JSON.parse(body || "{}");
+    console.info(newBody);
+
     // Sample snippet to use services to make API calls.
     if ((httpMethod === "GET", query?.code === "getdata")) {
       return utils.lambdaResponse(
