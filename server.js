@@ -3,7 +3,7 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import { handler } from "./index.js";
+import { handler } from "./src/index.js";
 
 const PORT = 5000;
 const app = express();
